@@ -1,0 +1,42 @@
+body {
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 1em; }
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  color: #A6D3A0;
+  text-align: center;
+  font-size: 2em; }
+
+h2, h3, h4, h5 {
+  color: #52489c;
+  font-family: "Libre Baskerville", serif; }
+
+p {
+  color: #656565; }
+
+.animation {
+  height: 250px;
+  background: red; }
+
+.animation img {
+  max-width: 100%;
+  height: auto; }
+
+.advertesiment {
+  height: 200px;
+  border: 1px solid red; }
+
+.advertesiment p {
+  color: red; }
+
+.advertsement {
+  height: 200px;
+  width: 375px; }
+
+.advertsement > img {
+  height: 100%;
+  width: 100%; }
+
+/*# sourceMappingURL=styles.css.map */

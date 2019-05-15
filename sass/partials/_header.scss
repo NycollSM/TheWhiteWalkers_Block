@@ -1,0 +1,34 @@
+body{
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 1em;
+}
+h1{
+  font-family: $font-titles;
+  color: $color-titles;
+  text-align: center;
+  font-size: 2em;
+}
+h2,h3,h4,h5{
+  color: $color-subtitles;
+  font-family: $font-titles; 
+}
+p{
+  color: $color-paragraphs;
+}
+
+.animation{
+  height: 250px;
+  background: red;
+}
+.animation img{
+  max-width: 100%;
+  height: auto;
+}
+.advertesiment{
+  height: 200px;
+  border: 1px solid red;
+}
+.advertesiment p{
+  color: red;
+}
