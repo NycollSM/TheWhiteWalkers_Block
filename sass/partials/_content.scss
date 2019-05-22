@@ -1,8 +1,45 @@
-.advertsement{
-  height: 200px;
-  width: 375px;
+.advertisement{
+  margin:50px 0;
+  position: relative;
+  height: 170px;
 }
-.advertsement > img{
-  height: 100%;
+.advertisement img{
+  position: absolute;
+  height: auto;
   width: 100%;
+  max-width: 100%;
+}
+.advertisement--info{
+  margin-left: 5px;
+  border:solid 1px #ffffff;
+  border-radius: 6px;
+  height: 30px;
+  color: #ffffff;
+  float: left;
+  background: transparent;
+  position: relative;
+  top: 160px;
+  width: 25%;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.post{
+  width: 100%;
+}
+.post img{
+  height: auto;
+  max-width: 100%;
+}
+.author--info p{
+  text-align: right;
+}
+
+.related--posts{
+  margin: 40px 0; 
+}
+.related--post{
+  margin: 20px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
