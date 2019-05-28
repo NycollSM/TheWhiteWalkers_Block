@@ -59,9 +59,6 @@ h4 {
   top: 160px;
   width: 25%;
 }
-.advertisement--info:hover {
-  cursor: pointer;
-}
 
 .post {
   width: 100%;
@@ -72,19 +69,86 @@ h4 {
   max-width: 100%;
 }
 
+.author--info {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+
 .author--info p {
-  text-align: right;
+  text-align: justify;
+}
+
+.avatar {
+  height: 72px;
+  width: 72px;
+  display: inline-block;
+  text-align: center;
+}
+
+.avatar img {
+  width: 62px;
+  height: 65px;
+  border-radius: 100%;
+}
+
+.author {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.shareBtn {
+  height: 30px;
+  width: 30px;
+  background: transparent;
+}
+
+.fb {
+  height: 30px;
+  width: 30px;
+  background: url(../img/icons/fb2.png);
+}
+
+.twitter {
+  background: url(../img/icons/twitter2.png);
 }
 
 .related-posts {
-  margin: 60px 0;
+  margin: 80px 0;
+  border-top: 10px black solid;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.related-posts h2 {
+  color: black;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h4 {
+  text-align: inherit;
 }
 
 .related-post {
-  margin: 20px 0;
+  margin: 30px 10px;
+  padding: 10px;
+  border-radius: 4px;
   text-align: justify;
-  border-bottom: 1px solid black;
-  box-shadow: #a3a3a393 5px;
+  box-shadow: #3d3d3d5c 1px 0px 6px 2px;
+}
+.related-post:hover {
+  color: #ffffff;
+  font-weight: bold;
+  background: black;
+  transition: 1s;
+}
+
+.related-post img {
+  height: auto;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
